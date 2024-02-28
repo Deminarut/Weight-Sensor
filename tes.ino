@@ -42,6 +42,7 @@ void loop() {
     float i = LoadCell.getData();
     Serial.print("Load_cell output val: ");
     Serial.println(i);
+    Serial.println("Succes");
 
     tft.setCursor(0, 0); // Set the cursor to the top-left corner
     tft.println("Load_cell output val: "); // Print the text to the TFT display
